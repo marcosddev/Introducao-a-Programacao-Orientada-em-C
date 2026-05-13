@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #define MAX 100
 
-//Função para calcular o IMC
+//FunÃ§Ã£o para calcular o IMC
 
 float calcularIMC(float peso, float altura){
 	return peso/(altura*altura);
@@ -11,7 +11,7 @@ float calcularIMC(float peso, float altura){
 
 
 
-//Função para classificar o IMC
+//FunÃ§Ã£o para classificar o IMC
 
 void classificarIMC(float imc, char classificacao[]){
 	if(imc<18.5){
@@ -31,7 +31,7 @@ void classificarIMC(float imc, char classificacao[]){
 	}
 }
 
-//Funçaõ Principal
+//FunÃ§aÃµ Principal
 
 int main(){
 	char nomes[MAX][100];
@@ -61,15 +61,15 @@ int main(){
 	printf("Digite a altura(m): ");
 	scanf("%f", &alturas[i]);
 	
-	//verificação
+	//verificaÃ§Ã£o
 	
 	if (alturas <=0){
-		printf("Altura inválida!\n");
+		printf("Altura invÃ¡lida!\n");
 	}
 	else{
-		//Cálculo do IMC
+		//CÃ¡lculo do IMC
 		imcs[i] = calcularIMC(pesos[i], alturas[i]);
-		//Classificação
+		//ClassificaÃ§Ã£o
 		classificarIMC(imcs[i], classificacoes[i]);
 		i++;
 	}
@@ -81,7 +81,7 @@ int main(){
 
 //Tabela final
 
-printf("\n========================== Relatório Final==========================\n");
+printf("\n========================== RelatÃ³rio Final==========================\n");
 printf("----------------------------------------------------------------------\n");
 printf("| %-20s | %-5s | %-8s | %-20s |\n", "Nome", "Idade", "IMC", "Classificacao");
 printf("----------------------------------------------------------------------\n");
