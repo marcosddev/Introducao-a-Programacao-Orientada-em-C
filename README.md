@@ -5,10 +5,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Linguagem-C%2FC%2B%2B-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Linguagem-C-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/IDE-VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub-Repositório-black?style=for-the-badge&logo=github">
 </p>
 
 ---
