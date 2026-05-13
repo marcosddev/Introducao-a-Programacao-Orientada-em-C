@@ -28,9 +28,7 @@ Este repositório foi criado com o objetivo de armazenar e organizar todos os c�
 # 🛠️ Tecnologias Utilizadas
 
 - Linguagem C
-- C++
-- GCC / G++
-- Visual Studio Code
+- Dev C/C++
 - Git
 - GitHub
 
