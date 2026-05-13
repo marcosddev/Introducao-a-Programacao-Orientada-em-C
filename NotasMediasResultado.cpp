@@ -14,7 +14,7 @@ int main(){
 		strcpy(situacao, "Reprovado");
 	}
 	
-	//Exibição em formato de tabela
+	//ExibiÃ§Ã£o em formato de tabela
 	
 	printf("\n =*20\n");
 	printf(" BOLETIM DO ALUNO\n");
