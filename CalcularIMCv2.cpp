@@ -1,0 +1,114 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#define MAX 100
+
+//Função para calcular o IMC
+
+float calcularIMC(float peso, float altura){
+	return peso/(altura*altura);
+}
+
+
+
+//Função para classificar o IMC
+
+void classificarIMC(float imc, char classificacao[]){
+	if(imc<18.5){
+		strcpy(classificacao, "Abaixo do peso");
+	}
+	else if (imc<30){
+		strcpy(classificacao, "Peso normal");
+	}
+	else if (imc<35){
+		strcpy(classificacao, "Obesidade I");
+	}
+	else if (imc<40){
+		strcpy(classificacao, "Obesidade II");
+	}
+	else{
+		strcpy(classificacao, "Obesidade III");
+	}
+}
+
+//Funçaõ Principal
+
+int main(){
+	char nomes[MAX][100];
+	int idades[MAX];
+	float pesos[MAX];
+	float alturas[MAX];
+	float imcs[MAX];
+	char classificacoes[MAX][50];
+	int i = 0;
+	char continuar = 'S';
+
+	printf("==============================================\n");
+	printf("          CALCULADORA DE IMC                 \n");
+	printf("==============================================\n");
+	
+	
+	//Cadastro com while
+	
+	while((continuar =='S' || continuar =='s')&&i<MAX){
+
+		printf("Paciente %d\n",i+1);
+
+		printf("Digite o nome: ");
+		scanf(" %[^\n]", nomes[i]);
+
+		printf("Digite a idade: ");
+		scanf("%d", &idades[i]);
+	
+		printf("Digite o peso(kg): ");
+		scanf("%f", &pesos[i]);
+
+		printf("Digite a altura(m): ");
+		scanf("%f", &alturas[i]);
+	
+		//verificação
+	
+		if (alturas[i] <= 0){
+			printf("Altura inválida!\n");
+		}
+		else{
+			//Cálculo do IMC
+			imcs[i] = calcularIMC(pesos[i], alturas[i]);
+
+			//Classificação
+			classificarIMC(imcs[i], classificacoes[i]);
+
+			i++;
+		}
+
+		//Continuar
+		printf("\nDeseja cadastrar outro paciente? (S/N): ");
+		scanf(" %c", &continuar);
+
+		printf("\n");
+	}
+
+	//Tabela final
+
+	printf("\n========================== Relatório Final==========================\n");
+	printf("----------------------------------------------------------------------\n");
+
+	printf("| %-20s | %-5s | %-8s | %-20s |\n", "Nome", "Idade", "IMC", "Classificacao");
+
+	printf("----------------------------------------------------------------------\n");
+
+	int j=0;
+
+	while(j<i){
+		printf("| %-20s | %-5d | %-8.2f | %-20s |\n",
+		nomes[j], idades[j], imcs[j], classificacoes[j]);
+
+		j++;
+	}
+
+	printf("----------------------------------------------------------------------\n");
+
+	printf("\nPrograma encerrado!\n");
+
+	return 0;
+}
