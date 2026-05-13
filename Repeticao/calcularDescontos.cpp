@@ -2,7 +2,7 @@
 #include <string.h>
 #define TAM 5
 //=====================================\\
-// FUN«√O PARA CALCULAR DESCONTO\\
+// FUN√á√ÉO PARA CALCULAR DESCONTO\\
 //=====================================
 
 float calcularDesconto(float preco, float desconto){
@@ -11,7 +11,7 @@ valorFinal=preco-(preco*desconto/100);
 return valorFinal;
 }
 //=====================================\\
-// FUN«√O PRINCIPAL
+// FUN√á√ÉO PRINCIPAL
 //=====================================
 int main(){
 	char produtos[TAM][50];
