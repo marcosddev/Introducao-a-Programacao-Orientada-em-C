@@ -2,7 +2,7 @@
 int main(){
 	int num, i;
 	
-	printf("Digite um número para ver sua tabuada: ");
+	printf("Digite um nÃºmero para ver sua tabuada: ");
 	scanf("%d", &num);
 	
 	printf("=================================");
