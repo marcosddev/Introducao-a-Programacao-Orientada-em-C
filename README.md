@@ -34,29 +34,58 @@ Este repositório foi criado com o objetivo de armazenar e organizar todos os c�
 
 # 📁 Arquivos do Repositório
 
+## 🔀 Condicionais
+
 | Arquivo | Descrição |
 |----------|------------|
-| [CalcularIMC.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/CalcularIMC.cpp) | Calcula o IMC utilizando peso e altura informados pelo usuário |
-| [ComparadorNumeros.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/ComparadorNumeros.cpp) | Compara números e identifica maior, menor ou igualdade |
-| [ConversaoGraus.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/ConversaoGraus.cpp) | Conversão de temperaturas entre escalas |
-| [Fatorial.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Fatorial.cpp) | Calcula o fatorial de um número |
-| [IfElseIMC.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/IfElseIMC.cpp) | Calcula e classifica o IMC utilizando estruturas condicionais |
-| [ImparPar.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/ImparPar.cpp) | Verifica se um número é par ou ímpar |
-| [MediaResultado.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/MediaResultado.cpp) | Calcula média e mostra resultado do aluno |
-| [NotasMediasResultado.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/NotasMediasResultado.cpp) | Sistema simples de notas, médias e aprovação |
-| [ResultadoAlunos.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/ResultadoAlunos.cpp) | Exibe resultados e desempenho de alunos |
-| [Tabuadas.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Tabuadas.cpp) | Gera tabuadas utilizando estruturas de repetição |
-| [calculadoraSwitchCase.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/calculadoraSwitchCase.cpp) | Calculadora utilizando switch case |
-| [calcularDescontos.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/calcularDescontos.cpp) | Calcula descontos sobre valores informados |
-| [desempenhoAlunos.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/desempenhoAlunos.cpp) | Analisa desempenho de alunos |
-| [equacao.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/equacao.cpp) | Resolve operações e equações matemáticas |
-| [imparParWhile.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/imparParWhile.cpp) | Verifica números pares e ímpares usando while |
-| [maiorMenorInt.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/maiorMenorInt.cpp) | Identifica maior e menor número inteiro |
-| [maiorMenorVetor.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/maiorMenorVetor.cpp) | Identifica maior e menor valor dentro de um vetor |
-| [numerosVetor.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/numerosVetor.cpp) | Manipulação e armazenamento de números em vetores |
-| [repetição.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/repeti%C3%A7%C3%A3o.cpp) | Exercícios utilizando estruturas de repetição |
-| [somaNumeros.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/somaNumeros.cpp) | Realiza soma de números informados |
-| [somaVetores.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/somaVetores.cpp) | Soma elementos de vetores |
-| [somatorioProduto.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/somatorioProduto.cpp) | Calcula somatórios e produtos matemáticos |
-| [tabuadaFor.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/tabuadaFor.cpp) | Gera tabuadas utilizando estrutura for |
-| [README.md](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/README.md) | Documentação principal do repositório |
+| [ComparadorNumeros.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Condicionais/ComparadorNumeros.cpp) | Compara números e identifica maior, menor ou igualdade |
+| [IfElseIMC.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Condicionais/IfElseIMC.cpp) | Calcula e classifica o IMC utilizando estruturas condicionais |
+| [ImparPar.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Condicionais/ImparPar.cpp) | Verifica se um número é par ou ímpar |
+| [calculadoraSwitchCase.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Condicionais/calculadoraSwitchCase.cpp) | Calculadora simples utilizando switch case |
+| [calcularDescontos.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Condicionais/calcularDescontos.cpp) | Calcula descontos sobre valores informados |
+| [maiorMenorInt.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Condicionais/maiorMenorInt.cpp) | Identifica o maior e o menor número inteiro |
+
+---
+
+## 🧮 Matemática
+
+| Arquivo | Descrição |
+|----------|------------|
+| [CalcularIMC.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Matematica/CalcularIMC.cpp) | Calcula o Índice de Massa Corporal (IMC) |
+| [ConversaoGraus.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Matematica/ConversaoGraus.cpp) | Conversão entre escalas de temperatura |
+| [equacao.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Matematica/equacao.cpp) | Resolve operações e equações matemáticas |
+| [somatorioProduto.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Matematica/somatorioProduto.cpp) | Calcula somatórios e produtos matemáticos |
+
+---
+
+## 🔁 Repetição
+
+| Arquivo | Descrição |
+|----------|------------|
+| [Fatorial.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Repeticao/Fatorial.cpp) | Calcula o fatorial de um número |
+| [Tabuadas.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Repeticao/Tabuadas.cpp) | Gera tabuadas utilizando estruturas de repetição |
+| [imparParWhile.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Repeticao/imparParWhile.cpp) | Verifica números pares e ímpares utilizando while |
+| [repetição.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Repeticao/repeti%C3%A7%C3%A3o.cpp) | Exercícios utilizando estruturas de repetição |
+| [somaNumeros.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Repeticao/somaNumeros.cpp) | Realiza soma de números informados |
+| [tabuadaFor.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Repeticao/tabuadaFor.cpp) | Gera tabuadas utilizando laço for |
+
+---
+
+## 🖥️ Sistemas
+
+| Arquivo | Descrição |
+|----------|------------|
+| [MediaResultado.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Sistemas/MediaResultado.cpp) | Calcula média e exibe resultado do aluno |
+| [NotasMediasResultado.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Sistemas/NotasMediasResultado.cpp) | Sistema de notas, médias e aprovação |
+| [ResultadoAlunos.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Sistemas/ResultadoAlunos.cpp) | Exibe resultados e desempenho de alunos |
+| [desempenhoAlunos.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Sistemas/desempenhoAlunos.cpp) | Analisa desempenho acadêmico dos alunos |
+
+---
+
+## 📦 Vetores
+
+| Arquivo | Descrição |
+|----------|------------|
+| [maiorMenorVetor.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Vetores/maiorMenorVetor.cpp) | Identifica maior e menor valor dentro de um vetor |
+| [numerosVetor.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Vetores/numerosVetor.cpp) | Manipulação de números em vetores |
+| [somaVetores.cpp](https://github.com/00Eden/Introducao-a-Programacao-Orientada-em-C/blob/main/Vetores/somaVetores.cpp) | Soma elementos de vetores |
